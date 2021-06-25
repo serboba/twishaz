@@ -78,7 +78,6 @@ def shazamsearch():
     sampl = ""
 
     if len(sample[0][1]['matches'])!=0:
-        print("yeter amk")
         if len(sample[0][1]['track']['sections'][0]['metapages']) >=2:
             artist = sample[0][1]['track']['sections'][0]['metapages'][0]['caption']
             song = sample[0][1]['track']['sections'][0]['metapages'][1]['caption']
